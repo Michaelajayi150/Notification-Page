@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+  <!-- Bootstrap CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <header class="d-flex w-100 align-items-center justify-content-between mb-4">
+      <h1>Notifications <span id="count" class="bar">3</span></h1>
+      <div id="trigger" class="hover-blue">Mark all as read</div>
+    </header>
+    <div class="content">
+      <div class="new notify banner">
+        <img src="./assets/images/avatar-mark-webber.webp" alt="mark webber" />
+        <div class="message">
+          <div class="marked">
+            <strong class="hover-blue">Mark Webber</strong> reacted to your recent post <bdo>My first tournament
+              today!</bdo>
+          </div>
+          <div class="time mt-1">1m ago</div>
+        </div>
+      </div>
+
+      <div class="new notify banner">
+        <img src="./assets/images/avatar-angela-gray.webp" alt="Angela Gray" />
+        <div class="message">
+          <div class="marked">
+            <strong class="hover-blue">Angela Gray</strong> followed you
+          </div>
+          <div class="time mt-1">5m ago</div>
+        </div>
+      </div>
+
+      <div class="new notify banner">
+        <img src="./assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson" />
+        <div class="message">
+          <div class="marked">
+            <strong class="hover-blue">Jacob Thompson</strong> has joined your group <bdo class="color-blue">Chess
+              Club</bdo>
+          </div>
+          <div class="time mt-1">1 day ago</div>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" />
+        <div class="message">
+          <strong class="hover-blue">Rizky Hasanuddin</strong> sent you a private message
+          <div class="time mt-1 mb-3">5 days ago</div>
+          <p class="card comment hover-shy">
+            <span class="card-body">
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.
+            </span>
+          </p>
+
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="./assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith" />
+        <div class="message">
+          <strong class="hover-blue">Kimberly Smith</strong> commented on your picture
+          <div class="time mt-1 mb-2">1 week ago</div>
+        </div>
+        <div class="ms-auto">
+          <img src="./assets/images/image-chess.webp" alt="Chess" />
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="./assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson" />
+        <div class="message">
+          <strong class="hover-blue">Nathan Peterson</strong> reacted to your recent post <bdo>5 end-game strategies to
+            increase your win
+            rate</bdo>
+          <div class="time mt-1">2 week ago</div>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="./assets/images/avatar-anna-kim.webp" alt="Anna Kim" />
+        <div class="message">
+          <strong class="hover-blue">Anna Kim</strong> left the group <bdo class="color-blue">Chess Club</bdo>
+          <div class="time mt-1">2 week ago</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Michaelajayi150">Michael Ajayi</a>.
+  </footer>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+
+</html>

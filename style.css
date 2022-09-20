@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+:root {
+  --red: hsl(1, 90%, 64%);
+  --blue: hsl(219, 85%, 26%);
+
+  --white: hsl(0, 0%, 100%);
+  --very-light-grayish-blue: rgb(247, 250, 253);
+  --light-grayish-blue: hsl(211, 68%, 94%);
+  --less-light-grayish-blue: hsl(205, 33%, 90%);
+  --grayish-blue: hsl(218, 14%, 63%);
+  --dark-grayish-blue: rgb(94, 103, 120);
+  --very-dark-blue: hsl(224, 21%, 14%);
+}
+
+body {
+  padding: 2rem 0;
+  font: 500 14px "Plus Jakarta Sans", sans-serif;
+  word-spacing: 2px;
+
+  min-height: 100vh;
+  transition: all 0.4s linear;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+main {
+  max-width: 670px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  border-radius: 20px;
+}
+
+header h1 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+header .bar {
+  font-size: 1rem;
+  background-color: var(--blue);
+  color: var(--white);
+
+  padding: 0.1rem 0.5rem 0.2rem;
+  border-radius: 7px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.new.banner {
+  background-color: var(--very-light-grayish-blue);
+}
+
+.banner {
+  padding: 0.8rem 1rem;
+  border-radius: 7px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.banner img {
+  width: 45px;
+  height: 45px;
+}
+
+.banner .message {
+  color: var(--grayish-blue);
+}
+
+.banner .message .time {
+  color: var(--grayish-blue);
+}
+
+.banner .message strong {
+  color: var(--very-dark-blue);
+}
+
+.banner .message bdo {
+  font-weight: 800;
+  color: var(--dark-grayish-blue);
+}
+
+.new.banner .message .marked::after {
+  content: "";
+  display: inline-block;
+
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background-color: var(--red);
+}
+
+.color-blue,
+.hover-blue:hover,
+bdo:hover {
+  cursor: pointer;
+  color: var(--blue) !important;
+}
+
+.hover-shy:hover {
+  cursor: pointer;
+  background-color: var(--light-grayish-blue) !important;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    padding: 4rem 0;
+  }
+
+  main {
+    padding: 2rem clamp(1rem, 5vw, 2rem);
+    box-shadow: 0px 0px 30px 5px rgba(147, 157, 174, 0.2),
+      0px 0px 20px 15px rgba(247, 250, 253, 0.5);
+  }
+}
