@@ -91,7 +91,7 @@ header .bar {
   color: var(--very-dark-blue);
 }
 
-.banner .message bdo {
+.banner .message .context {
   font-weight: 800;
   color: var(--dark-grayish-blue);
 }
@@ -108,7 +108,7 @@ header .bar {
 
 .color-blue,
 .hover-blue:hover,
-bdo:hover {
+.context:hover {
   cursor: pointer;
   color: var(--blue) !important;
 }
