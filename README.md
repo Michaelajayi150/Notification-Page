@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ![](https://your-solution-url.com)
+- Solution URL: ![](https://www.frontendmentor.io/solutions/single-notification-page-with-auto-toggle-LWYz_fsJHA)
 - Live Site URL: [Notification Page](https://notification-mentor.netlify.app)
 
 ## My process
